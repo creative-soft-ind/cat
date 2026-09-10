@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>CAT Online</title>
+        <style>
+        /* Menghilangkan margin dan membuat Iframe menutupi seluruh layar */
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            overflow: hidden; 
+            background-color: #f8fafc; /* Warna background soft */
+        }
+        iframe { 
+            width: 100vw; 
+            height: 100vh; 
+            border: none; 
+            display: block;
+        }
+    </style>
 </head>
 <body>
-
-    
     <!-- Ganti src dengan URL Web App Anda -->
-    <iframe src="https://script.google.com/macros/s/AKfycbwPBVi-lChiaC3froFE5ozGTHuPp6-YUAIj7sysMNrMfIBekguWf-WaERx7KI2Ck14p/exec" width="100%" 
-  height="100vh" 
-  style="border:none; min-height: 100vh;" 
-  allow="camera; microphone; fullscreen"></iframe>
+    <iframe src="https://script.google.com/macros/s/AKfycbwPBVi-lChiaC3froFE5ozGTHuPp6-YUAIj7sysMNrMfIBekguWf-WaERx7KI2Ck14p/exec" allowfullscreen></iframe>
 </body>
 </html>
