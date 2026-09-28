@@ -2,28 +2,63 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Registrasi CAT Online</title>
-        <style>
-        /* Menghilangkan margin dan membuat Iframe menutupi seluruh layar */
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            height: 100%; 
-            overflow: hidden; 
-            background-color: #f8fafc; /* Warna background soft */
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Registrasi - Ditutup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0ebf8;
         }
-        iframe { 
-            width: 100vw; 
-            height: 100vh; 
-            border: none; 
-            display: block;
+        
+        /* Bayangan khas Material Design (Google Forms) */
+        .gform-card {
+            box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+            border-radius: 8px;
+            background-color: #ffffff;
+            border-top: 8px solid #673ab7;
         }
     </style>
 </head>
-<body>
 
-    
-    <!-- Ganti src dengan URL Web App Anda -->
-    <iframe src="https://script.google.com/macros/s/AKfycbzxS9XTNVGJep98J5YeQta-pyDgRNwhmJy0bjjIfXLORFGZgDay8y5YoAMrl3yU0Gz_/exec?page=registrasi" allowfullscreen></iframe>
+<body class="min-h-screen flex flex-col items-center pt-4 sm:pt-12 px-4 pb-12 text-[#202124]">
+
+    <!-- Container utama formulir (lebar maksimal 640px seperti standar Google Forms) -->
+    <main class="w-full max-w-[640px]">
+        
+        <div class="gform-card p-6 md:p-8">
+            
+            <!-- Judul Formulir -->
+            <h1 class="text-[32px] leading-[40px] font-normal mb-6 break-words">
+                Formulir Registrasi
+            </h1>
+
+            <div class="mt-2 space-y-5">
+                <p class="text-[14px] leading-5">
+                    <strong>Registrasi telah ditutup</strong>
+                </p>
+
+                <p class="text-[14px] leading-5">
+                    Jika Anda merasa ini adalah sebuah kesalahan, hubungi pemilik formulir.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="mt-6 text-center text-[12px] text-[#70757a]">
+            <p class="mb-1">Konten ini tidak dibuat atau didukung oleh Google.</p>
+            <p class="font-medium text-[#5f6368] text-[18px] opacity-80 mt-3 flex items-center justify-center gap-1">
+                Google <span class="font-normal text-[#70757a] text-[16px]">Forms</span>
+            </p>
+        </div>
+
+    </main>
+
 </body>
 </html>
